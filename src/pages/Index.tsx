@@ -375,9 +375,11 @@ const Index = () => {
             </p>
           </div>
           <div className="order-1 md:order-2">
-            <div className="aspect-square bg-gradient-to-br from-accent/20 to-primary/20 rounded-2xl flex items-center justify-center">
-              <Icon name="User" size={120} className="text-primary/40" />
-            </div>
+            <img 
+              src="https://cdn.poehali.dev/files/фото (57).jpg" 
+              alt="Алёна Галсанова"
+              className="w-full rounded-2xl shadow-2xl object-cover aspect-square"
+            />
           </div>
         </div>
       </section>
