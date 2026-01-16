@@ -395,28 +395,27 @@ const Index = () => {
             <h3 className="text-3xl font-bold mb-6 text-center">
               Практикум «ВЕКТОР 2026»
             </h3>
-            <ul className="space-y-3 mb-8">
-              <li className="flex items-center gap-3">
-                <Icon name="CheckCircle2" className="text-accent flex-shrink-0" />
-                <span>онлайн-формат</span>
-              </li>
-              <li className="flex items-center gap-3">
-                <Icon name="CheckCircle2" className="text-accent flex-shrink-0" />
-                <span>2 недели работы</span>
-              </li>
-              <li className="flex items-center gap-3">
-                <Icon name="CheckCircle2" className="text-accent flex-shrink-0" />
-                <span>8 живых эфиров</span>
-              </li>
-              <li className="flex items-center gap-3">
-                <Icon name="CheckCircle2" className="text-accent flex-shrink-0" />
-                <span>задания и практики</span>
-              </li>
-              <li className="flex items-center gap-3">
-                <Icon name="CheckCircle2" className="text-accent flex-shrink-0" />
-                <span>поддержка в процессе</span>
-              </li>
-            </ul>
+            <div className="mb-8">
+              <div className="grid grid-cols-3 gap-4 mb-4">
+                <div className="border border-border rounded-lg p-4 text-center bg-white">
+                  <p className="font-medium">онлайн-формат</p>
+                </div>
+                <div className="border border-border rounded-lg p-4 text-center bg-white">
+                  <p className="font-medium">2 недели работы</p>
+                </div>
+                <div className="border border-border rounded-lg p-4 text-center bg-white">
+                  <p className="font-medium">8 живых эфиров</p>
+                </div>
+              </div>
+              <div className="grid grid-cols-2 gap-4">
+                <div className="border border-border rounded-lg p-4 text-center bg-white">
+                  <p className="font-medium">задания и практики</p>
+                </div>
+                <div className="border border-border rounded-lg p-4 text-center bg-white">
+                  <p className="font-medium">поддержка в процессе</p>
+                </div>
+              </div>
+            </div>
             <div className="text-center py-6 bg-accent/10 rounded-lg mb-4">
               <p className="text-lg mb-2">Стоимость участия:</p>
               <p className="text-5xl font-bold text-primary mb-3">3 500 ₽</p>
