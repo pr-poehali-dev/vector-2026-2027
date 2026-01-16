@@ -9,8 +9,10 @@ import {
 import Icon from "@/components/ui/icon";
 
 const Index = () => {
-  const scrollToForm = () => {
-    document.getElementById("cta")?.scrollIntoView({ behavior: "smooth" });
+  const telegramLink = "https://t.me/m/tRaGp4n7NGVi";
+
+  const handleButtonClick = () => {
+    window.open(telegramLink, "_blank");
   };
 
   return (
@@ -43,7 +45,7 @@ const Index = () => {
         <Button
           size="lg"
           className="bg-primary hover:bg-primary/90 text-white text-lg px-8 py-6 rounded-full"
-          onClick={scrollToForm}
+          onClick={handleButtonClick}
         >
           Хочу участвовать
         </Button>
@@ -82,7 +84,7 @@ const Index = () => {
             size="lg"
             variant="outline"
             className="border-primary text-primary hover:bg-primary hover:text-white"
-            onClick={scrollToForm}
+            onClick={handleButtonClick}
           >
             Узнать подробнее
           </Button>
@@ -122,7 +124,7 @@ const Index = () => {
           <Button
             size="lg"
             className="bg-primary hover:bg-primary/90 text-white"
-            onClick={scrollToForm}
+            onClick={handleButtonClick}
           >
             Записаться
           </Button>
@@ -333,7 +335,7 @@ const Index = () => {
           <Button
             size="lg"
             className="bg-primary hover:bg-primary/90 text-white"
-            onClick={scrollToForm}
+            onClick={handleButtonClick}
           >
             Хочу участвовать
           </Button>
@@ -426,7 +428,7 @@ const Index = () => {
             <Button
               size="lg"
               className="w-full bg-primary hover:bg-primary/90 text-white text-xl py-6"
-              onClick={scrollToForm}
+              onClick={handleButtonClick}
             >
               Оплатить участие
             </Button>
@@ -488,7 +490,7 @@ const Index = () => {
         <Button
           size="lg"
           className="bg-primary hover:bg-primary/90 text-white text-xl px-12 py-8 rounded-full"
-          onClick={scrollToForm}
+          onClick={handleButtonClick}
         >
           Хочу участвовать
         </Button>
