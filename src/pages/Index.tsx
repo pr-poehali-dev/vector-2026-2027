@@ -395,24 +395,24 @@ const Index = () => {
             <h3 className="text-3xl font-bold mb-6 text-center">
               Практикум «ВЕКТОР 2026»
             </h3>
-            <ul className="space-y-3 mb-8">
-              <li className="flex items-center gap-3">
+            <ul className="space-y-3 mb-8 max-w-md mx-auto">
+              <li className="flex items-center justify-center gap-3">
                 <Icon name="CheckCircle2" className="text-accent flex-shrink-0" />
                 <span>онлайн-формат</span>
               </li>
-              <li className="flex items-center gap-3">
+              <li className="flex items-center justify-center gap-3">
                 <Icon name="CheckCircle2" className="text-accent flex-shrink-0" />
                 <span>2 недели работы</span>
               </li>
-              <li className="flex items-center gap-3">
+              <li className="flex items-center justify-center gap-3">
                 <Icon name="CheckCircle2" className="text-accent flex-shrink-0" />
                 <span>8 живых эфиров</span>
               </li>
-              <li className="flex items-center gap-3">
+              <li className="flex items-center justify-center gap-3">
                 <Icon name="CheckCircle2" className="text-accent flex-shrink-0" />
                 <span>задания и практики</span>
               </li>
-              <li className="flex items-center gap-3">
+              <li className="flex items-center justify-center gap-3">
                 <Icon name="CheckCircle2" className="text-accent flex-shrink-0" />
                 <span>поддержка в процессе</span>
               </li>
