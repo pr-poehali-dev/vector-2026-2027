@@ -417,9 +417,14 @@ const Index = () => {
                 <span>поддержка в процессе</span>
               </li>
             </ul>
-            <div className="text-center py-6 bg-accent/10 rounded-lg mb-6">
+            <div className="text-center py-6 bg-accent/10 rounded-lg mb-4">
               <p className="text-lg mb-2">Стоимость участия:</p>
-              <p className="text-5xl font-bold text-primary">3 500 ₽ <span className="text-2xl text-secondary line-through ml-2">вместо 7 000 ₽</span></p>
+              <p className="text-5xl font-bold text-primary mb-3">3 500 ₽</p>
+              <p className="text-xl text-secondary line-through">вместо 7 000 ₽</p>
+              <p className="text-lg font-semibold text-primary mt-4">
+                <Icon name="Users" className="inline mr-2" size={20} />
+                Из 8 мест осталось 2
+              </p>
             </div>
             <p className="text-center text-lg mb-6">
               <Icon name="Calendar" className="inline mr-2 text-accent" />
