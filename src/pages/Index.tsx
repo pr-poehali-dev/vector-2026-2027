@@ -395,31 +395,16 @@ const Index = () => {
             <h3 className="text-3xl font-bold mb-6 text-center">
               Практикум «ВЕКТОР 2026»
             </h3>
-            <ul className="space-y-3 mb-8 max-w-md mx-auto">
-              <li className="flex items-center justify-center gap-3">
-                <Icon name="CheckCircle2" className="text-accent flex-shrink-0" />
-                <span>онлайн-формат</span>
-              </li>
-              <li className="flex items-center justify-center gap-3">
-                <Icon name="CheckCircle2" className="text-accent flex-shrink-0" />
-                <span>2 недели работы</span>
-              </li>
-              <li className="flex items-center justify-center gap-3">
-                <Icon name="CheckCircle2" className="text-accent flex-shrink-0" />
-                <span>8 живых эфиров</span>
-              </li>
-              <li className="flex items-center justify-center gap-3">
-                <Icon name="CheckCircle2" className="text-accent flex-shrink-0" />
-                <span>задания и практики</span>
-              </li>
-              <li className="flex items-center justify-center gap-3">
-                <Icon name="CheckCircle2" className="text-accent flex-shrink-0" />
-                <span>поддержка в процессе</span>
-              </li>
-            </ul>
+            <div className="text-center mb-8 space-y-2">
+              <p>онлайн-формат</p>
+              <p>2 недели работы</p>
+              <p>8 живых эфиров</p>
+              <p>задания и практики</p>
+              <p>поддержка в процессе</p>
+            </div>
             <div className="text-center py-6 bg-accent/10 rounded-lg mb-6">
               <p className="text-lg mb-2">Стоимость участия:</p>
-              <p className="text-5xl font-bold text-primary">3 500 ₽</p>
+              <p className="text-5xl font-bold text-primary">3 500 ₽ <span className="text-2xl text-secondary line-through ml-2">вместо 7 000 ₽</span></p>
             </div>
             <p className="text-center text-lg mb-6">
               <Icon name="Calendar" className="inline mr-2 text-accent" />
