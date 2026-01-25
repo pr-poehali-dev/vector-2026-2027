@@ -39,7 +39,7 @@ const Index = () => {
           </div>
           <div className="flex items-center gap-2">
             <Icon name="Sparkles" className="text-accent" />
-            <span className="font-medium">Старт: 26 февраля</span>
+            <span className="font-medium">Старт: 28 января</span>
           </div>
         </div>
         <Button
@@ -428,7 +428,7 @@ const Index = () => {
             </div>
             <p className="text-center text-lg mb-6">
               <Icon name="Calendar" className="inline mr-2 text-accent" />
-              Старт: 26 февраля
+              Старт: 28 января
             </p>
             <Button
               size="lg"
