@@ -515,21 +515,43 @@ const Index = () => {
       </section>
 
       <section className="py-16 px-4 md:px-8 max-w-4xl mx-auto text-center bg-gray-50">
-        <h2 className="text-4xl md:text-5xl font-bold mb-6">
-          Готовы узнать, куда на самом деле хотите двигаться?
+        <h2 className="text-4xl md:text-5xl font-bold mb-8">
+          Подойдёт ли вам этот практикум?
         </h2>
-        <p className="text-xl text-secondary mb-8">
-          Без масок. Без «надо». Только вы и ваша настоящая цель.
+        <p className="text-xl mb-6">
+          Этот продукт для вас, если вы:
+        </p>
+        <div className="space-y-3 mb-8 text-left max-w-2xl mx-auto">
+          <div className="flex items-start gap-3">
+            <Icon name="CheckCircle2" className="text-accent flex-shrink-0 mt-1" size={24} />
+            <p className="text-lg">готовы честно посмотреть на себя и свою жизнь</p>
+          </div>
+          <div className="flex items-start gap-3">
+            <Icon name="CheckCircle2" className="text-accent flex-shrink-0 mt-1" size={24} />
+            <p className="text-lg">хотите ясности, а не вдохновения на пару дней</p>
+          </div>
+          <div className="flex items-start gap-3">
+            <Icon name="CheckCircle2" className="text-accent flex-shrink-0 mt-1" size={24} />
+            <p className="text-lg">понимаете, что дальше жить «по-старому» не хочется</p>
+          </div>
+        </div>
+        <p className="text-lg text-secondary mb-8 max-w-2xl mx-auto leading-relaxed">
+          Сейчас — хороший момент остановиться,
+          определить ориентиры и войти в 2026 год осознанно,
+          а не по инерции.
         </p>
         <Button
           size="lg"
-          className="bg-primary hover:bg-primary/90 text-white text-xl px-12 py-6"
+          className="bg-primary hover:bg-primary/90 text-white text-xl px-12 py-6 mb-4"
           onClick={handleButtonClick}
         >
-          Участвовать в практикуме
+          Хочу участвовать
         </Button>
-        <p className="mt-6 text-secondary">
-          Осталось всего 2 места
+        <p className="text-2xl font-bold mt-8">
+          ВЕКТОР 2026
+        </p>
+        <p className="text-lg text-secondary">
+          Практикум по раскрытию потенциала
         </p>
       </section>
     </div>
