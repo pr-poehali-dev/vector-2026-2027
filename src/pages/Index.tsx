@@ -428,7 +428,7 @@ const Index = () => {
             </div>
             <p className="text-center text-lg mb-6">
               <Icon name="Calendar" className="inline mr-2 text-accent" />
-              Старт: 28 января
+              Старт: 31 января
             </p>
             <Button
               size="lg"
