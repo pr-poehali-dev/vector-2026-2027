@@ -371,37 +371,6 @@ const Index = () => {
         </Accordion>
       </section>
 
-      <section className="py-16 px-4 md:px-8 max-w-6xl mx-auto bg-gray-50">
-        <h2 className="text-4xl md:text-5xl font-bold mb-8 text-center">
-          Кто ведёт практикум
-        </h2>
-        <div className="grid md:grid-cols-2 gap-12 items-center">
-          <div>
-            <h3 className="text-3xl font-bold mb-4">Алёна Галсанова</h3>
-            <p className="text-lg mb-4 leading-relaxed">
-              Психолог-консультант, специалист по трансформационным практикам.
-            </p>
-            <p className="mb-4 leading-relaxed">
-              Работаю с женщинами, которые застряли в состоянии «делаю, но не чувствую».
-            </p>
-            <p className="mb-4 leading-relaxed">
-              Помогаю убрать внутренние барьеры, понять свои истинные желания и выстроить жизнь
-              без чувства вины за «неправильный» выбор.
-            </p>
-            <p className="leading-relaxed">
-              Верю, что изменения начинаются не с мотивации, а с честности с собой.
-            </p>
-          </div>
-          <div>
-            <img 
-              src="https://cdn.poehali.dev/files/photo_2025-02-12_00-09-06.jpg" 
-              alt="Алёна Галсанова"
-              className="w-full rounded-2xl shadow-2xl object-cover aspect-square"
-            />
-          </div>
-        </div>
-      </section>
-
       <section className="py-16 px-4 md:px-8 max-w-6xl mx-auto">
         <h2 className="text-4xl md:text-5xl font-bold mb-12 text-center">
           Частые вопросы
@@ -514,7 +483,38 @@ const Index = () => {
         </Card>
       </section>
 
-      <section className="py-16 px-4 md:px-8 max-w-4xl mx-auto text-center bg-gray-50">
+      <section className="py-16 px-4 md:px-8 max-w-6xl mx-auto bg-gray-50">
+        <h2 className="text-4xl md:text-5xl font-bold mb-8 text-center">
+          Кто ведёт практикум
+        </h2>
+        <div className="grid md:grid-cols-2 gap-12 items-center">
+          <div>
+            <h3 className="text-3xl font-bold mb-4">Алёна Галсанова</h3>
+            <p className="text-lg mb-4 leading-relaxed">
+              Психолог-консультант, специалист по трансформационным практикам.
+            </p>
+            <p className="mb-4 leading-relaxed">
+              Работаю с женщинами, которые застряли в состоянии «делаю, но не чувствую».
+            </p>
+            <p className="mb-4 leading-relaxed">
+              Помогаю убрать внутренние барьеры, понять свои истинные желания и выстроить жизнь
+              без чувства вины за «неправильный» выбор.
+            </p>
+            <p className="leading-relaxed">
+              Верю, что изменения начинаются не с мотивации, а с честности с собой.
+            </p>
+          </div>
+          <div>
+            <img 
+              src="https://cdn.poehali.dev/files/photo_2025-02-12_00-09-06.jpg" 
+              alt="Алёна Галсанова"
+              className="w-full rounded-2xl shadow-2xl object-cover aspect-square"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section className="py-16 px-4 md:px-8 max-w-4xl mx-auto text-center">
         <h2 className="text-4xl md:text-5xl font-bold mb-8">
           Подойдёт ли вам этот практикум?
         </h2>
