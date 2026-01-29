@@ -433,18 +433,30 @@ const Index = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
             <h3 className="text-3xl font-bold mb-4">Алёна Галсанова</h3>
-            <p className="text-lg mb-4 leading-relaxed">
-              Психолог-консультант, специалист по трансформационным практикам.
+            <p className="text-lg mb-4 leading-relaxed font-semibold">
+              Архетиполог и эксперт по раскрытию потенциала
             </p>
-            <p className="mb-4 leading-relaxed">
-              Работаю с женщинами, которые застряли в состоянии «делаю, но не чувствую».
-            </p>
-            <p className="mb-4 leading-relaxed">
-              Помогаю убрать внутренние барьеры, понять свои истинные желания и выстроить жизнь
-              без чувства вины за «неправильный» выбор.
-            </p>
+            <ul className="space-y-2 mb-4">
+              <li className="flex items-start gap-2">
+                <Icon name="CheckCircle2" className="text-accent flex-shrink-0 mt-1" size={20} />
+                <span>2 года практики</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <Icon name="CheckCircle2" className="text-accent flex-shrink-0 mt-1" size={20} />
+                <span>более 30 успешных кейсов</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <Icon name="CheckCircle2" className="text-accent flex-shrink-0 mt-1" size={20} />
+                <span>онлайн-формат</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <Icon name="CheckCircle2" className="text-accent flex-shrink-0 mt-1" size={20} />
+                <span>работаю не через мотивацию, а через ясность и ответственность</span>
+              </li>
+            </ul>
             <p className="leading-relaxed">
-              Верю, что изменения начинаются не с мотивации, а с честности с собой.
+              Я не обещаю «новую жизнь за 7 дней». Моя задача — помочь вам увидеть правду о себе, 
+              своих желаниях и возможностях и выстроить путь, который выдержит реальность.
             </p>
           </div>
           <div>
